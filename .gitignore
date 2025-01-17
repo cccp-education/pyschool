@@ -1,0 +1,54 @@
+venv
+README_webapp.pdf
+README_webapp.docx
+README_webapp.html
+student3.py
+student1.py
+.ipynb_checkpoints
+config.py
+.hypothesis
+demo.zip
+.kotlin
+spring-cli-standalone
+compose-samples
+*.code-app.workspace
+.idea
+*.ipr
+*.iws
+*.iml
+# *.odt
+pyschool/config.py
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+# android props
+local.properties
+
+# Visual studio code
+.vs
+
+# binaries
+bin
+
+# maven destination
+target
+
+# build destination
+output
+
+# extra private
+app.workspace.yml
+e3p0.yaml
+managed-jbake-context.yml
+private.properties
+
+# windows personalisation
+desktop.ini
+training-institut-2598582b592a.json
+.next
+
+*.hprof
