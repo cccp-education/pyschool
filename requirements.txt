@@ -60,3 +60,4 @@ uvicorn
 watchgod
 websockets
 xmlschema
+pydantic-ai>=0.0.19

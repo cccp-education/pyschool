@@ -10,7 +10,7 @@ from langchain.prompts import PromptTemplate
 # from langchain_community.llms import HuggingFaceHub
 from langchain_community.llms import Ollama
 
-async def ollama():
+async def lc_ollama_chatbot():
     # Initialiser Ollama
     llm = Ollama(
         base_url="http://localhost:11434",
@@ -74,5 +74,5 @@ async def ollama():
 
 
 if __name__ == '__main__':
-    asyncio.run(ollama())
+    asyncio.run(lc_ollama_chatbot())
     # asyncio.run(huggingface_chat())
